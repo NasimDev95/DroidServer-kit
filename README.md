@@ -41,4 +41,40 @@ With a simple interactive CLI menu, you can install:
 You can install the entire toolkit using a single command. Open Termux, copy the command below, and paste it:
 
 ```bash
-curl -sL [https://raw.githubusercontent.com/NasimDev95/DroidServer-kit/main/setup.sh](https://raw.githubusercontent.com/NasimDev95/DroidServer-kit/main/setup.sh) | bash
+curl -sLO [https://raw.githubusercontent.com/NasimDev95/DroidServer-kit/main/setup.sh](https://raw.githubusercontent.com/NasimDev95/DroidServer-kit/main/setup.sh) && bash setup.sh
+
+```
+### How to use the Setup Menu:
+Once the script runs, you will see an interactive menu:
+ * Type 1 to 5 to install individual components.
+ * Type 6 to **Install Everything** (Recommended). This will fully set up your environment and automatically activate the global droidserver command.
+ * Type 0 to exit.
+## ⚙️ Usage & Server Management
+If you selected **Option [6] (Install Everything)**, the droidserver global command is automatically added to your system. You can use it from anywhere in Termux to manage your background processes!
+### Server Commands:
+```bash
+droidserver start    # Starts Apache, MariaDB, and VS Code Server in the background
+droidserver stop     # Safely stops all running services
+droidserver restart  # Restarts all services instantly
+droidserver status   # Displays the current status of your servers
+
+```
+### Accessing Your Tools:
+ * **VS Code Server:** Run droidserver start, then open your mobile browser and go to http://127.0.0.1:8080.
+ * **Local Web Server (Apache):** Place your web files in the Apache root folder and visit http://127.0.0.1:8080.
+ * **Database (MariaDB):** Run mariadb or mysql in Termux to access the database CLI.
+ * **Ubuntu CLI:** Type proot-distro login ubuntu to enter the Linux environment. Type exit to leave.
+## 🤝 Contribution
+Contributions, issues, and feature requests are welcome!
+ 1. Fork the Project
+ 2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+ 3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+ 4. Push to the Branch (git push origin feature/AmazingFeature)
+ 5. Open a Pull Request
+## 📄 License
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software as long as the original copyright and license notice are included.
+```
+
+Isko directly copy karke paste kar do, aur aapka repo ekdum professional ready ho jayega!
+
+```

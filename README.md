@@ -73,8 +73,3 @@ Contributions, issues, and feature requests are welcome!
  5. Open a Pull Request
 ## 📄 License
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software as long as the original copyright and license notice are included.
-```
-
-Isko directly copy karke paste kar do, aur aapka repo ekdum professional ready ho jayega!
-
-```

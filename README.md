@@ -41,8 +41,7 @@ With a simple interactive CLI menu, you can install:
 You can install the entire toolkit using a single command. Open Termux, copy the command below, and paste it:
 
 ```bash
-curl -sLO [https://raw.githubusercontent.com/NasimDev95/DroidServer-kit/main/setup.sh](https://raw.githubusercontent.com/NasimDev95/DroidServer-kit/main/setup.sh) && bash setup.sh
-
+curl -sLO https://raw.githubusercontent.com/NasimDev95/DroidServer-kit/main/setup.sh && bash setup.sh
 ```
 ### How to use the Setup Menu:
 Once the script runs, you will see an interactive menu:

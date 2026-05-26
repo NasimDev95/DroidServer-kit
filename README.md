@@ -1,8 +1,14 @@
+<p align="center">
+  <img src="logo.png" alt="DroidServer-Kit Logo" width="100%">
+</p>
+
 # 🔥 DroidServer-Kit 
 
-![Termux](https://img.shields.io/badge/Termux-Environment-black?style=for-the-badge&logo=termux)
-![Bash](https://img.shields.io/badge/Script-Bash-green?style=for-the-badge&logo=gnu-bash)
-![Open Source](https://img.shields.io/badge/Open-Source-blue?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Termux-Environment-black?style=for-the-badge&logo=termux" alt="Termux">
+  <img src="https://img.shields.io/badge/Script-Bash-green?style=for-the-badge&logo=gnu-bash" alt="Bash">
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License MIT">
+</p>
 
 **DroidServer-Kit** is an automated, all-in-one full-stack development environment setup script for Android via Termux. It transforms your mobile device into a powerful local server and coding workspace with a single installation menu.
 
@@ -35,5 +41,4 @@ With a simple interactive CLI menu, you can install:
 You can install the entire toolkit using a single command. Open Termux, copy the command below, and paste it:
 
 ```bash
-curl -sL [https://raw.githubusercontent.com/NasimDev95/DroidServer-Kit/main/setup.sh](https://raw.githubusercontent.com/NasimDev/DroidServer-Kit/main/setup.sh) | bash
-
+curl -sL [https://raw.githubusercontent.com/NasimDev95/DroidServer-kit/main/setup.sh](https://raw.githubusercontent.com/NasimDev95/DroidServer-kit/main/setup.sh) | bash
